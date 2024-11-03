@@ -1,0 +1,22 @@
+# Ignore the virtual environment folder
+venv/
+# If your virtual environment is named something else, replace 'venv' with that name
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore the .DS_Store file (macOS)
+.DS_Store
+
+# Ignore the database file (if you use SQLite)
+db.sqlite3
+
+# Ignore local settings
+*.local
+
+# Ignore environment variable files
+.env
+
+# Ignore static files (if you generate them)
+staticfiles/
